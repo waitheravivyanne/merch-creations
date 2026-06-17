@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display:wght@700&display=swap');
+
+
 .navbar {
     background-color: #3a0b3d;
     color: white;
@@ -19,8 +22,13 @@
   .nav-logo {
     color: white;
     text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: 'great vibes'; 
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3); 
+    transition: transform 0.3s ease;
+    display: inline-block;
   }
   
   .nav-menu {

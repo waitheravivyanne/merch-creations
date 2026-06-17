@@ -213,6 +213,15 @@ def create_database():
                     category='Clothing',
                     stock=100
                 )
+                # ,
+                # Product(
+                #     name='clothes',
+                #     descrition='Es',
+                #     price=1,
+                #     category='Electronics',
+                #     stock=100
+                # )
+                
             ]
 
             for product in sample_products:

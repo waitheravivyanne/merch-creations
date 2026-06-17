@@ -6,7 +6,7 @@ import './Auth.css';
 
 const Login = () => {
   const [formData, setFormData] = useState({
-    username: '',
+    email: '',
     password: ''
   });
   const [error, setError] = useState('');
@@ -26,7 +26,7 @@ const Login = () => {
 
     try {
       const response = await axios.post('http://localhost:5000/api/login', formData);
-      login({ username: formData.username }, response.data.token);
+      login({ username: formData.email }, response.data.token);
       navigate('/products');
     } catch (err) {
       setError('Invalid username or password');
